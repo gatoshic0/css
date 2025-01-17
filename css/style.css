@@ -15,16 +15,19 @@ header
 }
 
 nav {
-    display: block;
-    text-align: center;
-    background-color: #004f9e;
-    height: 42px;
+    background-color: #ADD6DD;
+    height: 32px;
     width: 100%;
+    display: block;
+    text-align: left;
 }
 
-nav a 
-{
-    color: #ffffff;
+li {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    font-size: 18px;
 }
 
 a
@@ -54,11 +57,7 @@ p
 
 }
 
-li {
-    display: inline-block;
-    width: auto;
-    padding: 10px;
-}
+
 
 img {
     width: 15%;
